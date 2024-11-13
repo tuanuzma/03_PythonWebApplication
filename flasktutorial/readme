@@ -1,0 +1,25 @@
+Installation and configuration of Virtual Environment 
+and creating Flask application
+
+1) Create a folder called "flasktutorial"
+2) Open the flasktutorial folder inside the visual studio code
+3) Go to the terminal (cmd not ps) and run the command python -m venv virtual
+4) You can see the virtual folder is created
+5) To activate the Virtual Environment "cd virtual\Scripts"
+6) Now make sure you are inside the Scripts folder
+7) Then type "activate"
+8) You can see (virtual) current working folder path>
+9) Now you can navigate to flasktutorial by typing "cd .." (twice)
+10) Let us install flask inside the virtual environment
+11) In the terminal type "pip install Flask"
+12) The pip install command install all the necessary libraries
+inside the virtual\lib\site-packages folder
+13) To deactivate the virtual environment type "cd virtual\Scripts"
+14) Then type "deactivate"
+
+Developing web application using flask
+15) Create our first program app.py
+16) Go to the terminal make sure you are in the folder where app.py is
+17) Now run the command "flask run"
+18) This will start the python server at port number 5000
+19) Open the browser type "http://127.0.0.1:5000"
