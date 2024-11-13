@@ -1,1 +1,1 @@
-This is about build and deploying web applications using Flask.
+This is about building and deploying web applications using Flask.
